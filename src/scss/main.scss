@@ -1,0 +1,32 @@
+html, body {
+	height: 100%;
+	font-size: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.light-mode {
+	background-color: #fff;
+	color: #000;
+}
+
+.dark-mode {
+	background-color: #000;
+	color: #fff;
+}
+
+.you-are-an-idiot {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 3em;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+
+	@media only screen and (min-width: 768px) {
+		font-size: 5em;
+	}
+}
